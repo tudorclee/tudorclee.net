@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* Reset CSS */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}del,ins{text-decoration:none;}
+
+.container { width: 550px; margin:20px auto 30px auto; font: 11px/18px "Lucida Grande", sans-serif; color:#262626; }
+h1 { text-align:center; margin:0 0 10px 0; }
+h1 a { display:block; text-indent:-5000px; font-size:1%; width:170px; height:34px; background:url(/images/tc_logo.png) 0 0 no-repeat; margin: 0 auto;}
+h2 { display:block; text-indent:-5000px; font-size:1%; width:407px; height:20px; background:url(/images/tc_subhead.png) 0 0 no-repeat; margin: 0 auto;}
+.col { width:245px; float:left; margin: 15px; }
+.header { text-align:center; border-bottom:solid 1px #EEE; padding: 0 0 20px 0; }
+p {padding:0 0 .7em 0;}
+p label { font-weight:bold; float:left; width: 100px; }
+p span { display:block; float:left;}
+input, textarea { border: 1px solid #B2B2B2; width:190px; padding:3px; }
+input.submit { display:block; text-indent:-5000px; font-size:1%; width:100px; height:20px; background:url(/_img/but_send.png) 0 0 no-repeat; border:none;margin:0 0 0 100px; }
+input.submit:hover { background-position:0 -20px; }
+.content,.mainContent { overflow:auto; }
+.contact {  border-top:solid 1px #EEE; overflow:auto; }
+.footer { text-align:center; color:#999; border-top:solid 1px #EEE; margin:50px 0 0 0; clear:both; padding:10px 0 0 0; }
+
+.error { color:#D00; }
+
+
+/* Support */
+.support h3 {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 1em 0;
+    text-align: center;
+}
+.support-item {
+    border-top:solid 1px #EEE;
+    clear:both;
+}
+.support-item img {
+    border: solid 1px #CCC;
+    padding: 1px;
+    float:right
+}
+.support-item p.col {
+    width:210px;
+}

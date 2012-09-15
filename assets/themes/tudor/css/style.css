@@ -1,0 +1,320 @@
+/* Override some defaults */
+html, body {
+  background-color: #aab1b9;
+  
+}
+
+body {
+    background-color: white;
+
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+
+.topbar .btn {
+  border: 0;
+}
+
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	line-height:28px;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#005F6B;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+
+
+
+
+/* customized */
+
+body {
+
+}
+
+
+.blogpage {
+margin-top:10px;
+background-color: white;
+background-color: rgba(255,255,255,0.5);
+padding:10px;
+
+min-width: 550px;
+max-width: 960px;
+margin: auto;
+}
+
+.blogheader {
+border-bottom: 1px solid silver;
+padding-bottom: 10px;
+margin-bottom: 40px;
+}
+
+.gravatar {
+	max-width: 134px;
+margin: auto;
+display: block;
+background-color: 
+white;
+padding: 0.7em;
+}
+
+.sectionTitle {
+	font-weight:bold;
+}
+
+.blogpost {
+	background-color:white;
+	background-color:rgba(255,255,255,0.7);
+	border-radius: 10px;
+	margin: 1em 0 1em 0;
+	padding:1em;
+}
+
+.pagesection {
+	background-color:white;
+	background-color:rgba(255,255,255,0.7);
+	border-radius: 10px;
+	margin: 1em 0 1em 0;
+	padding:1em;
+}
+
+.projectLink {
+	display: block;
+	background-color:white;
+	background-color:rgba(255,255,255,0.5);
+	text-decoration:none;
+	color:black;
+	font-size:8pt;
+	padding:1em;
+	line-height:1.4em;
+	text-align: justify;
+	border-radius:10px;
+	cursor: pointer;
+	margin: 1em 0 2em 0;
+}
+.projectLink:hover {
+	text-decoration:none;
+	color:black;
+}
+
+.projectLink img {
+	height:60px;
+	margin: 0 auto 1em auto;
+	min-height:20px;
+	border:1px solid black;
+	display:block;
+}
+
+.projectLink .title {
+	font-weight:bold;
+}
+
+.projectLink .description {
+	
+}
+
+.navbar {
+}
+
+.navbar .nav {
+float: right;
+}
+
+.navbar .brand {
+font-size: 38px;
+color:black;
+}
+
+.tagline {
+	font-size: 15px;
+}
+
+
+.navbar .nav > li > a {
+
+color: #666;
+
+text-shadow: none;
+
+}
+
+.navbar .nav > li > a:hover {
+
+color: #999;
+
+}
+
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+background-color: #999;
+border-radius: 1em;
+}
+
+
+.page-header {
+background-color: transparent;
+border-bottom:none;
+}
+
+.tag_box {
+	
+}
+
+
+h1 {
+	font-size: 24px;
+	color: #07a;
+}
+
+.blogthumbnail {
+float: left;
+width: 100px;
+margin: 10px;
+}
+
+.postsList h2 {
+font-size: 18px;
+color: 
+#059;
+font-weight: normal;
+}
+
+.postsList h2 a {
+color: #059;
+}
+
+footer {
+	text-align:center;
+}
+
+.readmore {
+	text-align:right;
+}
+
+.pagination .next {
+	float:right;
+}
+
+
+
+.brand {
+    font-weight: normal;
+    font-family: 'Alex Brush';
+}
+
+.tagline {
+    font-weight: normal;
+    font-family: 'Alex Brush';
+    font-size: 12pt;
+}
+
+.topics li {
+    
+}
+.topics li span {
+    display: none;
+}
+
+.sidebarheader {
+   font-size: 12pt;
+color: silver;
+margin-bottom: 10px;
+}
+
+
+.support-item > div {
+  padding: 5px;
+text-align: justify;
+font-size: 9pt;
+}
+
+.support-item img {
+    width: 100%;
+}
+
+
+.supportheader {
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid silver;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.contactinfo {
+ border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+      padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.contactinfo p {
+padding: 5px 0 .7em 0;
+clear: both;
+margin: 0;
+}
+
+.contactinfo p label {
+font-weight: bold;
+float: left;
+width: 100px;
+}
+
+.contactinfo  p .address {
+    float:left;
+}

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% include JB/setup %}
+
+
+<div>
+Tudor Clee is a Barrister and Solicitor of the High Court of New Zealand specializing in Criminal and Traffic law.
+
+If you have queries on any of these matters including loss of licence, work or limited licences please call 0800 BUSTED (0800 287 833) or email us below.
+</div>
+
+  <div class="postsList">
+{% for post in paginator.posts %}
+ 
+ <div class="blogpost">
+  <div class="blogthumbnail">
+    <img src="{{post.image}}"/>
+  </div>
+ <h2><a href="{{ post.url }}" class="dark-link">{{ post.title }}</a></h2>
+  {% if post.summary != null %}
+<p>{{post.summary}}</p>
+{%else%}
+  <p>{{ post.content | strip_html | truncatewords: 75 }}</p>
+  {%endif%}
+  <div class="readmore"><a href="{{ post.url }}">Read more...</a></div>
+ </div> 
+ 
+
+{% endfor %}
+
+<div class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+      <a href="/index.html" title="Previous Page">&laquo; Newer</a>
+      {% else %}
+      <a href="/page{{ paginator.previous_page }}/" title="Previous Page">&laquo; Newer</a>
+      {% endif %}
+    {% endif %}
+  </span>
+  <span class="next">
+    {% if paginator.next_page %}
+    <a href="/page{{ paginator.next_page }}/" title="Next Page">Older &raquo;</a>
+    {% endif %}
+  </span>
+</div>
+
+</div>
